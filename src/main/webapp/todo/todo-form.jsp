@@ -59,19 +59,19 @@
                     </c:if>
 
                     <fieldset class="form-group">
-                        <label>Todo Title</label> <input type="text"
+                        <label>Title</label> <input type="text"
                                                          value="<c:out value='${todo.title}' />" class="form-control"
                                                          name="title" required="required" minlength="5">
                     </fieldset>
 
                     <fieldset class="form-group">
-                        <label>Todo Decription</label> <input type="text"
+                        <label>Decription</label> <input type="text"
                                                               value="<c:out value='${todo.description}' />" class="form-control"
                                                               name="description" minlength="5">
                     </fieldset>
 
                     <fieldset class="form-group">
-                        <label>Todo Status</label> <select class="form-control"
+                        <label>Status</label> <select class="form-control"
                                                            name="isDone">
                         <option value="false">In Progress</option>
                         <option value="true">Complete</option>
@@ -79,7 +79,7 @@
                     </fieldset>
 
                     <fieldset class="form-group">
-                        <label>Todo Target Date</label> <input type="date"
+                        <label>Target Date</label> <input type="date"
                                                                value="<c:out value='${todo.targetDate}' />" class="form-control"
                                                                name="targetDate" required="required">
                     </fieldset>

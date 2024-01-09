@@ -42,7 +42,7 @@
         <div class="container text-left">
 
             <a href="<%=request.getContextPath()%>/new"
-               class="btn btn-success">Add Todo</a>
+               class="btn btn-success">Add</a>
         </div>
         <br>
         <table class="table table-bordered">
